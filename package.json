@@ -1,0 +1,24 @@
+{
+  "name": "flat-array",
+  "version": "1.0.0",
+  "description": "flatten a nested array",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "mocha": "^3.5.3"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crystal/flat-array.git"
+  },
+  "author": "Crystal Tate <crys.tate@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crystal/flat-array/issues"
+  },
+  "homepage": "https://github.com/crystal/flat-array#readme"
+}
